@@ -1,0 +1,17 @@
+{
+    "name":"Time Zone Converter",
+    "id": "/converter.html",
+    "short_name":"Converter",
+    "start_url":"/converter.html",
+    "display":"standalone",
+    "background_color":"#FFE9D2",
+    "theme_color":"#FFE1C4",
+    "orientation":"portrait-primary",
+    "icons": [
+        {
+            "src": "/img/logo2.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
