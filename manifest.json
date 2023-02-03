@@ -1,7 +1,7 @@
 {
     "name":"Time Zone Converter",
     "short_name":"Converter",
-    "start_url":"/index.html",
+    "start_url":"https://rwtaditya.github.io/index.html",
     "display":"standalone",
     "background_color":"#FFE9D2",
     "theme_color":"#FFE1C4",
