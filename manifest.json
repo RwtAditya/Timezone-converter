@@ -3,7 +3,6 @@
     "id": "/index.html",
     "short_name":"Converter",
     "start_url":"/index.html",
-    "scope":"/index.html",
     "display":"standalone",
     "background_color":"#FFE9D2",
     "theme_color":"#FFE1C4",
