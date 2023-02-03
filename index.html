@@ -66,7 +66,7 @@
         <option value="UTC-11">UTC-11</option>
         <option value="UTC-10">UTC-10</option>
       </select>
-      
+
       <h2>Target Time Zone:</h2>
       <select id="targetTimeZone">
         <option value="UTC-12">UTC-12</option>
@@ -81,12 +81,14 @@
       <p>
         1. This is a Basic Timezone Converter which only converts time between UTC.<br>
         2. Enter the details as asked in the box which is in the center.<br>
-        3. The changes to the results are reflected in realtime, so you can see as you make changes to the information you enter.<br>
-        4. If something fails to work then keep this in mind that I am still in the process of learning and it will improve as I improve.<br>
+        3. The changes to the results are reflected in realtime, so you can see as you make changes to the information
+        you enter.<br>
+        4. If something fails to work then keep this in mind that I am still in the process of learning and it will
+        improve as I improve.<br>
       </p>
     </div>
   </div>
-  
+
   <h1 class="center-text">Post Conversion </h1>
 
   <div class="output-container">
@@ -108,22 +110,24 @@
       </div>
     </div>
   </div>
-  
+
 
   <script src="index.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/Timezone-converter/service-worker.js', {
-  scope: '/Timezone-converter/'
-})
-  .then((registration) => {
-    console.log('ServiceWorker registered: ', registration);
-  })
-  .catch((error) => {
-    console.error('ServiceWorker registration failed: ', error);
-  });
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/Timezone-converter/service-worker.js', {
+          scope: '/Timezone-converter/'
+        })
+          .then((registration) => {
+            console.log('ServiceWorker registered: ', registration);
+          })
+          .catch((error) => {
+            console.error('ServiceWorker registration failed: ', error);
+          });
 
+      });
+    }
   </script>
 </body>
 
