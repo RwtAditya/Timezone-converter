@@ -5,10 +5,10 @@ self.addEventListener('install', (event) => {
     caches.open(cacheName)
       .then((cache) => {
         cache.addAll([
-          '/',
-          'index.html',
-          'style.css',
-          'index.js',
+          '/Timezone-converter/',
+          '/Timezone-converter/index.html',
+          '/Timezone-converter/style.css',
+          '/Timezone-converter/index.js',
         ]);
       })
   );
